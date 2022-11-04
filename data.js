@@ -49,7 +49,7 @@ const META_DATA = {
         "twitter:description":'Home sample meta description Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
         "twitter:image":'https://cdn.searchenginejournal.com/wp-content/uploads/2019/10/25-of-the-best-examples-of-home-pages-5dc504205de2e.png',
     },
-    "/about-us" : {
+    "/about" : {
         "app_title": 'about page app_title',
         "meta_title": 'sample meta_title',
         "meta_description":'About sample meta description Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
