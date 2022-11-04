@@ -1,7 +1,7 @@
 
 
 const DEFAULT_META_DATA = {
-    "app_title": 'default app_title',
+    "app_title": 'Default application title',
     "meta_title": 'default meta_title',
     "meta_description":'Default meta description Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
     "meta_keywords":'default meta_keywords',
@@ -19,15 +19,15 @@ const DEFAULT_META_DATA = {
     "og:image:type":'default og:image:type',
     "twitter:card": 'default twitter card',
     "twitter:site":'default twitter site',
-    "twitter:title":'default twitter title',
-    "twitter:description":'default twitter description',
+    "twitter:title":'Default application twitter title',
+    "twitter:description":'Default twitter meta description Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
     "twitter:image":'https://www.tibs.org.tw/images/default.jpg',
 };
 
 
 const META_DATA = {
     "/" : {
-        "app_title": 'sample app_title',
+        "app_title": 'Home application title',
         "meta_title": 'sample meta_title',
         "meta_description":'Home sample meta description Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
         "meta_keywords":'sample meta_keywords',
@@ -35,19 +35,19 @@ const META_DATA = {
         "og:locale":'sample og:locale',
         "og:type":'sample og:type',
         "og:title":'sample og:title',
-        "og:description":'sample og:description',
+        "og:description":'Home sample meta description Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
         "og:url":'sample og:url',
         "og:site_name":'sample og:site_name',
-        "og:image":'sample og:image',
+        "og:image":'https://cdn.searchenginejournal.com/wp-content/uploads/2019/10/25-of-the-best-examples-of-home-pages-5dc504205de2e.png',
         "og:image:width":'sample og:image:width',
         "og:image:height":'sample og:image:height',
         "og:image:alt":'sample og:image:alt',
         "og:image:type":'sample og:image:type',
         "twitter:card": 'sample twitter card',
         "twitter:site":'sample twitter site',
-        "twitter:title":'sample twitter title',
-        "twitter:description":'sample twitter description',
-        "twitter:image":'sample twitter image',
+        "twitter:title":'Home application twitter title',
+        "twitter:description":'Home sample meta description Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
+        "twitter:image":'https://cdn.searchenginejournal.com/wp-content/uploads/2019/10/25-of-the-best-examples-of-home-pages-5dc504205de2e.png',
     },
     "/about-us" : {
         "app_title": 'about page app_title',
