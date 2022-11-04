@@ -92,7 +92,7 @@ const server = http.createServer(app);
 // const credentials = {key: privateKey, cert: certificate};
 // server = https.createServer(credentials, app);
 
-fs.readFile(env.PUBLIC_HTML_PATH, 'utf8', (err, fileData) => {
+fs.readFile(env.PUBLIC_HTML_PATH || './index.html', 'utf8', (err, fileData) => {
     if (err) {
         console.error('Error during file reading', err);process.exit();
     } else {
@@ -100,6 +100,6 @@ fs.readFile(env.PUBLIC_HTML_PATH, 'utf8', (err, fileData) => {
         htmlData = fileData;
     }
     // For http
-    server.listen(env.PORT || 3000, () => { console.log("listening on " + env.PORT || 3000 + "..."); });
+    server.listen(env.PORT || 5000, () => { console.log("listening on " + env.PORT || 5000 + "..."); });
 });
 
