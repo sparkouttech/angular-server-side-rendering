@@ -68,7 +68,7 @@ const META_DATA = {
         "og:image:type":'sample og:image:type',
         "twitter:card": 'sample twitter card',
         "twitter:site":'sample twitter site',
-        "twitter:title":'sample twitter title',
+        "twitter:title":'About page application title',
         "twitter:description":'sample twitter description',
         "twitter:image":'https://st2.depositphotos.com/3591429/10566/i/600/depositphotos_105666254-stock-photo-business-people-at-meeting-and.jpg',
     }
