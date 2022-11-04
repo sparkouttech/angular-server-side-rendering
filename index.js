@@ -100,6 +100,6 @@ fs.readFile(env.PUBLIC_HTML_PATH || './index.html', 'utf8', (err, fileData) => {
         htmlData = fileData;
     }
     // For http
-    server.listen(env.PORT || 5000, () => { console.log("listening on " + env.PORT || 5000 + "..."); });
+    server.listen(process.env.PORT || 5000, () => { console.log("listening on " + env.PORT || 5000 + "..."); });
 });
 
