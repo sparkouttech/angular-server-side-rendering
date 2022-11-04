@@ -67,6 +67,7 @@ check ```data.js``` file for further details
 In html file update title and meta tages like below 
 
 ```html
+<title>__APP_TITLE__</title>
 <meta name="keywords" content="__META_KEYWORDS__"></meta>
 <meta name="description" content="__META_DESCRIPTION__"></meta>
 <meta property="og:type" content="__OG_TYPE__">
