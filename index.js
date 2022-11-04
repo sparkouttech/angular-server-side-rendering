@@ -9,7 +9,7 @@ const cors = require('cors');
 
 const { DEFAULT_META_DATA, META_DATA } = require('./data');
 
-const env = dotenv.config().parsed;
+const env = dotenv.config().parsed || {};
 const app = express();
 
 app.disable('x-powered-by');
