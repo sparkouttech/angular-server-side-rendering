@@ -69,20 +69,6 @@ const prepareHtml = (metaData) => {
     });
 }
 
-// here we serve the index.html page
-// app.get('/*', async (req, res) => {
-//     const url = req.url.split('?')[0];
-//     console.log(url);
-//     // load meta data based on route
-//     const metaData = META_DATA[url] || DEFAULT_META_DATA;
-//     // set content-type header on response
-//     res.set('Content-Type', 'text/html');
-//     // inject meta tags
-//     prepareHtml(metaData).then((response) => {
-//         return res.send(response);
-//     });
-// });
-
 
 const server = http.createServer(app);
 
